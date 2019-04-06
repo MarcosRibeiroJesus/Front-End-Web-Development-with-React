@@ -14,7 +14,6 @@ class DishDetail extends Component {
                         day: '2-digit',
                         month: 'long',
                         year: 'numeric'
-
                     }).format(new Date(comment.date))}
                     </p>
                 </li>

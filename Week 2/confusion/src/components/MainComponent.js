@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './MenuComponent';
 import About from './AboutComponent';
-import DishDetail from "./DishDetailComponent";
+import DishDetail from "./DishdetailComponent";
 import Header from './HeaderComponent'
 import { DISHES } from '../shared/dishes';
 
@@ -11,7 +11,7 @@ import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import { LEADERS } from '../shared/leaders';
 import { PROMOTIONS } from '../shared/promotions';
-import { COMMENTS } from '../shared/comment';
+import { COMMENTS } from '../shared/comments';
 
 
 class Main extends Component {

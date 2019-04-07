@@ -64,10 +64,10 @@ class Contact extends Component {
         };
 
         if (this.state.touched.firstname && firstname.length < 3 || firstname.length > 10)
-            errors.firstname = 'First Name should have between 3 an 10 characters';
+            errors.firstname = 'First Name should have between 3 and 10 characters';
 
         if (this.state.touched.lastname && lastname.length < 3 || lastname.length > 10)
-            errors.lastname = 'Last Name should have between 3 an 10 characters';
+            errors.lastname = 'Last Name should have between 3 and 10 characters';
 
         const reg = /^\d+$/;
         if (this.state.touched.telnum && !reg.test(telnum))

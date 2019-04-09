@@ -62,6 +62,10 @@ address{
   color:#0f0f0f;
 }
 
+.navbar-dark {
+  background-color: #512DA8;
+}
+
 .page-enter {
   opacity: 0.01;
   transform: translateX(-100%);
@@ -82,8 +86,4 @@ address{
   opacity: 0.01;
   transform: translateX(100%);
   transition: all 300ms ease-out;
-}
-
-.navbar-dark {
-  background-color: #512DA8;
 }
